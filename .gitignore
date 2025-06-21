@@ -1,0 +1,20 @@
+# Ignora dependências
+node_modules/
+
+# Ignora banco SQLite local
+database/*.sqlite
+
+# Ignora arquivos de log
+logs
+*.log
+npm-debug.log*
+
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignora variáveis de ambiente
+.env
+
+# Ignora arquivos do VSCode (caso use)
+.vscode/
